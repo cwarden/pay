@@ -6,12 +6,10 @@
 		"micro-payments"
 	],
 	"repository": "https://github.com/cwarden/pay",
-	"addons": [
-	],
-	"scripts": {
-	},
 	"buildpacks": [
-		"url": "https://github.com/heroku/heroku-buildpack-php"
+		{
+			"url": "https://github.com/heroku/heroku-buildpack-php"
+		}
 	],
 	"env": {
 		"SECRET_KEY": {

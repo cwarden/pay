@@ -1,0 +1,34 @@
+{
+	"name": "Ad-hoc Stripe Payment Collector",
+	"description": "Quickly a simple application to collect payment using Stripe.",
+	"keywords": [
+		"stripe",
+		"micro-payments"
+	],
+	"repository": "https://github.com/cwarden/pay",
+	"addons": [
+	],
+	"scripts": {
+	},
+	"buildpacks": [
+		"url": "https://github.com/heroku/heroku-buildpack-php"
+	],
+	"env": {
+		"SECRET_KEY": {
+			"description": "Stripe Secret Key"
+		},
+		"PUBLISHABLE_KEY": {
+			"description": "Stripe Publishable Key"
+		},
+		"COMPANY_NAME": {
+			"description": "Company Name"
+		},
+		"PRODUCT_NAME": {
+			"description": "Name of Product Being Sold"
+		},
+		"AMOUNT": {
+			"description": "Amount in USD",
+			"value": "5.00"
+		}
+	}
+}

@@ -1,5 +1,5 @@
 {
-	"name": "Ad-hoc Stripe Payment Collector",
+	"name": "Stripe Payment Collector",
 	"description": "Quickly a simple application to collect payment using Stripe.",
 	"keywords": [
 		"stripe",
